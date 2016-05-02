@@ -1,0 +1,55 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.valentina.practica5_valentinacardenas.InicioFragment"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+       style="@style/linearLayoutStyle" >
+
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            style="@style/textViewStyle.Title"
+            android:text="Armenia"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            style="@style/imageViewStyle"
+            android:src="@drawable/armenia_quindio"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/textViewStyle.Content.otros"
+                android:text="@string/publi" />
+            <ImageView
+                style="@style/imageViewStyle"
+                android:src="@drawable/armenia_colombia_guia_de"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/imageViewStyle"
+                android:src="@drawable/yipao"/>
+            <TextView
+                style="@style/textViewStyle.Content.otros"
+                android:text="@string/publi2" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

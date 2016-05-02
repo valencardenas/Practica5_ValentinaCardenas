@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.valentina.practica5_valentinacardenas.InfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        style="@style/textViewStyle.Title"
+        android:text="@string/Demografia" />
+    <TextView
+        style = "@style/textViewStyle.Content"
+        android:text="@string/Pobla"/>
+    <TextView
+        style = "@style/textViewStyle.Content"
+        android:text="@string/Cabecera"/>
+    <TextView
+        style = "@style/textViewStyle.Content"
+        android:text="@string/Resto"/>
+
+</LinearLayout>

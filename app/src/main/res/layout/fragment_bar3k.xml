@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.valentina.practica5_valentinacardenas.Bar3kFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        style = "@style/linearLayoutStyle">
+        <TextView
+            style = "@style/textViewStyle.Title"
+            android:text="@string/Bar3"/>
+        <ImageView
+            style = "@style/imageViewStyle"
+            android:src="@drawable/barthecitypub"/>
+        <TextView
+            style = "@style/textViewStyle.Content"
+            android:text="@string/horariob3"/>
+        <TextView
+            style = "@style/textViewStyle.Content"
+            android:text="@string/dirb3"/>
+        <TextView
+            style = "@style/textViewStyle.Content"
+            android:text="@string/telb3"/>
+        <TextView
+            style = "@style/textViewStyle.Content"
+            android:text="@string/celb3"/>
+
+    </LinearLayout>
+
+</FrameLayout>

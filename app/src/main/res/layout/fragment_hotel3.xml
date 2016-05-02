@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.valentina.practica5_valentinacardenas.Hotel3Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        style = "@style/linearLayoutStyle">
+        <TextView
+            style = "@style/textViewStyle.Title"
+            android:text="@string/Hotel3"/>
+        <ImageView
+            style = "@style/imageViewStyle"
+            android:src="@drawable/hotelzuldemayda"/>
+        <TextView
+            style = "@style/textViewStyle.Content"
+            android:text="@string/dirh3"/>
+        <TextView
+            style = "@style/textViewStyle.Content"
+            android:text="@string/telh3"/>
+        <TextView
+            style = "@style/textViewStyle.Content"
+            android:text="@string/celh3"/>
+
+        <TextView
+            style = "@style/textViewStyle.Content"
+            android:text="@string/Webh3"/>
+    </LinearLayout>
+
+</FrameLayout>
