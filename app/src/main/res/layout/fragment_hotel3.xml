@@ -25,7 +25,16 @@
 
         <TextView
             style = "@style/textViewStyle.Content"
-            android:text="@string/Webh3"/>
+            android:text="@string/Webh3"
+            android:layout_marginBottom="15dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mapah3"
+            android:background="@color/darkblue"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="@string/mapa"/>
     </LinearLayout>
 
 </FrameLayout>

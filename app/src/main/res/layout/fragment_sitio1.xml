@@ -21,8 +21,16 @@
         android:text="@string/dirs1"/>
     <TextView
         style = "@style/textViewStyle.Content"
-        android:text="@string/tels1"/>
-
+        android:text="@string/tels1"
+        android:layout_marginBottom="15dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mapas1"
+            android:background="@color/darkblue"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="@string/mapa"/>
 
     </LinearLayout>
 

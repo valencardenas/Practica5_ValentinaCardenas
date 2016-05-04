@@ -31,6 +31,7 @@
                 android:layout_marginRight="10dp"/>
         </LinearLayout>
 
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,7 +45,14 @@
                 android:text="@string/publi2" />
 
         </LinearLayout>
-
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mapa1"
+            android:background="@color/darkblue"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="@string/mapa"/>
 
     </LinearLayout>
 

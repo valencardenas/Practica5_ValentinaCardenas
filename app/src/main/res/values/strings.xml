@@ -73,13 +73,18 @@
     <string name="Cabecera">Población Urbana: 273.114 habitantes.</string>
     <string name="Resto">Población Rural: 7.816 habtantes.</string>
 
-    <string name="publi">Armenia municipio colombiano, capital del departamento del uindio</string>
-    <string name="publi2">Conocido por su cultura cafetera, blablabla....</string>
+    <string name="publi">Capital del departamento del Quindío, es el punto de partida para conocer un
+        territorio que en 2011 la UNESCO declaró Patrimonio de la Humanidad: el Paisaje Cultural Cafetero colombiano.  </string>
+    <string name="publi2">Esta ciudad, fundada el 14 de octubre de 1889, está muy bien conectada por tierra con otros municipios donde
+        la cultura cafetera es parte de la vida diaria de sus habitantes.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="abierto">Open navigation drawer</string>
-    <string name="cerrado">Close navigation drawer</string>
+    <string name="abierto">navigation drawer Abierto</string>
+    <string name="cerrado">navigation drawer Cerrado</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="mapa">Mapa</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve">AIzaSyCIwztLTD9wd88un6xRN9QCCO02Vyqsvoc</string>
 
 
 </resources>
