@@ -87,54 +87,54 @@ public class MainActivity extends AppCompatActivity {
     }
     public void mapa1(View v){
         Intent i = new Intent(this, MapsActivity.class);
-        i.putExtra("control",1);
+        i.putExtra("caso",1);
         startActivity(i);
     }
     public void mapah1(View v){
         Intent i = new Intent(this, MapsActivity.class);
-        i.putExtra("control",2);
+        i.putExtra("caso",2);
         startActivity(i);
     }
     public void mapah2(View v){
         Intent i = new Intent(this, MapsActivity.class);
-        i.putExtra("control",3);
+        i.putExtra("caso",3);
         startActivity(i);
     }
 
     public void mapah3(View v){
         Intent i = new Intent(this, MapsActivity.class);
-        i.putExtra("control",4);
+        i.putExtra("caso",4);
         startActivity(i);
     }
     public void mapab1(View v){
         Intent i = new Intent(this, MapsActivity.class);
-        i.putExtra("control",5);
+        i.putExtra("caso",5);
         startActivity(i);
     }
     public void mapab2(View v){
         Intent i = new Intent(this, MapsActivity.class);
-        i.putExtra("control",6);
+        i.putExtra("caso",6);
         startActivity(i);
     }
     public void mapab3(View v){
         Intent i = new Intent(this, MapsActivity.class);
-        i.putExtra("control",7);
+        i.putExtra("caso",7);
         startActivity(i);
     }
     public void mapas1(View v){
         Intent i = new Intent(this, MapsActivity.class);
-        i.putExtra("control",8);
+        i.putExtra("caso",8);
         startActivity(i);
     }
-    public void mapas3(View v){
+    public void mapas2(View v){
         Intent i = new Intent(this, MapsActivity.class);
-        i.putExtra("control",9);
+        i.putExtra("caso",9);
         startActivity(i);
     }
 
-    public void mapas4(View v){
+    public void mapas3(View v){
         Intent i = new Intent(this, MapsActivity.class);
-        i.putExtra("control",10);
+        i.putExtra("caso",10);
         startActivity(i);
     }
 }
